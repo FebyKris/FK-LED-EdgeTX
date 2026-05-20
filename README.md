@@ -1,21 +1,21 @@
-# FK LED - Advanced EdgeTX RGB Configurator 🚥
+# FK LED - EdgeTX RGB Configurator 🚥
 
-**FK LED** is a powerful, touchscreen-friendly, and profile-based RGB LED Configurator script for EdgeTX. Built specifically for radios with addressable RGB Gimbal LEDs (like the Radiomaster TX16S MK3).
+**Disclaimer:** I am not a programmer and I do not know how to code. I had specific ideas for how I wanted my radio's LEDs to behave, and I used Gemini AI to write and troubleshoot the actual Lua scripts. Even this `README.md` file was generated with the help of AI! 🤖 This project is a collaborative effort between my FPV concepts and AI coding.
 
-Forget static colors. This script transforms your radio's LED rings into a fully customizable, dynamic visual indicator with **Live Preview** and **Flight-Mode Style Switch Profiles**, all configurable right from your radio's screen!
+**FK LED** is a touchscreen-friendly, profile-based RGB LED Configurator script for EdgeTX. It was built specifically for radios with addressable RGB Gimbal LEDs (like the Radiomaster TX16S MK3) to help easily switch LED colors and animations at the field, especially during fast-paced events or qualifiers.
 
 Developed by **FebyKris**.
 
 ## ✨ Key Features
-* 👆 **Touchscreen UI:** Intuitive, card-based user interface optimized for high-resolution screens (800x480).
-* 👁️ **Live Preview Engine:** See your animation, speed, and color changes in real-time as you tweak them in the UI.
-* 🎚️ **3-Profile Switch Override:** Map a 3-position switch (e.g., SA, SB, SC) to store and instantly recall 3 completely independent LED profiles (Animation, Speed, Primary/Background Colors, and FX).
+* 👆 **Touchscreen UI:** Card-based user interface optimized for 800x480 screens.
+* 👁️ **Live Preview:** See your animation, speed, and color changes in real-time as you tweak them in the UI.
+* 🎚️ **3-Profile Switch Override:** Map a 3-position switch (e.g., SA, SB, SC) to store and recall 3 independent LED profiles (Animation, Speed, Primary/Background Colors, and FX).
 * 🎨 **Interactive Color Palette:** Pick from 9 predefined solid colors using an on-screen visual palette.
-* 🌈 **Rainbow Dynamic FX:** A toggleable modifier that turns your LED trails into dynamic, shifting rainbows.
+* 🌈 **Rainbow Dynamic FX:** A toggleable modifier that turns your LED trails into shifting rainbows.
 * 🚀 **11 Custom Animations:**
   * `Solid` & `Breath`
   * `Wipe Up` & `Wipe Down`
-  * `Wipe Left` & `Wipe Right` (Smooth cross-gimbal tracking)
+  * `Wipe Left` & `Wipe Right` (Cross-gimbal tracking)
   * `Wipe Center` (Inward tracking)
   * `Alternating` (Left gimbal goes up, right gimbal goes down)
   * `Infinity` (Figure-8 loop)
@@ -23,7 +23,6 @@ Developed by **FebyKris**.
   * `Rainbow` (Smooth color wheel cycle)
 
 ## 📂 Installation Guide
-
 1. Download this repository as a ZIP file and extract it.
 2. Connect your EdgeTX radio to your computer via USB and select **USB Storage / SD Card**.
 3. Copy the files to your SD Card, maintaining this exact folder structure:
@@ -32,11 +31,10 @@ Developed by **FebyKris**.
 4. Disconnect the USB cable.
 
 ## 🕹️ How to Use
-
 ### Step 1: Activate the Background Script
 1. On your radio, press **SYS** and go to the **Radio Setup** page.
 2. Scroll down to the **RGB LED** section.
-3. Select `fk_led` from the script list. (Your LEDs will now light up).
+3. Select `fk_led` from the script list.
 
 ### Step 2: Configure via UI
 1. Press **SYS** and navigate to the **Tools** page.
@@ -44,16 +42,12 @@ Developed by **FebyKris**.
 3. Use the touchscreen or roller to navigate the menu:
    * **Input Switch:** Select a 3-position switch (e.g., SA or SB) to unlock Profile Mode.
    * **Setup Position UP/MID/DOWN:** Enter each profile to configure specific animations and colors for that switch position.
-4. Changes are saved automatically when you press `[ < Back & Save ]` or exit the tool!
+4. Changes are saved automatically when you press `[ < Back & Save Profile ]` or exit the tool.
 
 ## 🛠️ Compatibility
 * **Firmware:** EdgeTX 2.8 or newer.
-* **Hardware:** Radiomaster TX16S MK3 (Tested). It should work flawlessly on other EdgeTX radios with addressable Gimbal LEDs (minor adjustments to LED array indexing in `fk_led.lua` might be required for different LED counts).
-
-## 🤝 Contributing
-Feel free to fork this project, submit pull requests, or open an issue if you have ideas for new animations or features! Happy flying! 🚁
-
+* **Hardware:** Radiomaster TX16S MK3 (Tested). It should work on other EdgeTX radios with addressable Gimbal LEDs (minor adjustments to LED array indexing in `fk_led.lua` might be required).
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
-Basically, feel free to use, modify, and distribute this script, but please keep the original credit to **FebyKris**.
+Feel free to use, modify, and distribute this script, but please keep the original credit to **FebyKris**.
