@@ -2,7 +2,7 @@
 
 **Disclaimer:** I am not a programmer and I do not know how to code. I had specific ideas for how I wanted my radio's LEDs to behave, and I used Gemini AI to write and troubleshoot the actual Lua scripts. Even this `README.md` file was generated with the help of AI! 🤖 This project is a collaborative effort between my FPV concepts and AI coding.
 
-**FK LED** is a touchscreen-friendly, profile-based RGB LED Configurator script for EdgeTX. It was built specifically for radios with addressable RGB Gimbal LEDs (like the Radiomaster TX16S MK3) to help easily switch LED colors and animations at the field, especially during fast-paced events or qualifiers.
+**FK LED** is a touchscreen-friendly, profile-based RGB LED Configurator script for EdgeTX. It was built specifically for radios with addressable RGB Gimbal LEDs (like the Radiomaster TX16S MK3) to help easily switch LED colors and animations at the field.
 
 Developed by **FebyKris**.
 
