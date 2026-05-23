@@ -23,12 +23,11 @@ Developed by **FebyKris**.
   * `Rainbow` (Smooth color wheel cycle)
 
 ## 📂 Installation Guide
-1. Download this repository as a ZIP file and extract it.
+## 📂 Installation Guide
+1. Go to the **Releases** section on the right side of this page and download the latest `FK_LED_vX.X.zip`.
 2. Connect your EdgeTX radio to your computer via USB and select **USB Storage / SD Card**.
-3. Copy the files to your SD Card, maintaining this exact folder structure:
-   * `SD Card/SCRIPTS/TOOLS/FK_LED.lua`
-   * `SD Card/SCRIPTS/RGBLED/fk_led.lua`
-4. Disconnect the USB cable.
+3. Extract the contents of the ZIP file directly into the root of your radio's SD Card.
+4. Safely disconnect the USB cable.
 
 ## 🕹️ How to Use
 ### Step 1: Activate the Background Script
