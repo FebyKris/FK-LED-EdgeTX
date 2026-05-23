@@ -28,7 +28,6 @@ Demo Video : https://youtube.com/shorts/2faYx_021ik
   * `Battery` 
 
 ## 📂 Installation Guide
-## 📂 Installation Guide
 1. Go to the **Releases** section on the right side of this page and download the latest `FK_LED_vX.X.zip`.
 2. Connect your EdgeTX radio to your computer via USB and select **USB Storage / SD Card**.
 3. Extract the contents of the ZIP file directly into the root of your radio's SD Card.
