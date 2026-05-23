@@ -6,13 +6,15 @@
 
 Developed by **FebyKris**.
 
+Demo Video : https://youtube.com/shorts/2faYx_021ik
+
 ## ✨ Key Features
 * 👆 **Touchscreen UI:** Card-based user interface optimized for 800x480 screens.
 * 👁️ **Live Preview:** See your animation, speed, and color changes in real-time as you tweak them in the UI.
 * 🎚️ **3-Profile Switch Override:** Map a 3-position switch (e.g., SA, SB, SC) to store and recall 3 independent LED profiles (Animation, Speed, Primary/Background Colors, and FX).
 * 🎨 **Interactive Color Palette:** Pick from 9 predefined solid colors using an on-screen visual palette.
 * 🌈 **Rainbow Dynamic FX:** A toggleable modifier that turns your LED trails into shifting rainbows.
-* 🚀 **11 Custom Animations:**
+* 🚀 **14 Custom Animations:**
   * `Solid` & `Breath`
   * `Wipe Up` & `Wipe Down`
   * `Wipe Left` & `Wipe Right` (Cross-gimbal tracking)
@@ -21,6 +23,9 @@ Developed by **FebyKris**.
   * `Infinity` (Figure-8 loop)
   * `Infinity Wipe` (Fill and erase loop)
   * `Rainbow` (Smooth color wheel cycle)
+  * `Strobe`
+  * `Scanner`
+  * `Battery` 
 
 ## 📂 Installation Guide
 ## 📂 Installation Guide
@@ -56,3 +61,5 @@ Your support is highly appreciated and will motivate me to create more cool scri
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
 Feel free to use, modify, and distribute this script, but please keep the original credit to **FebyKris**.
+
+
